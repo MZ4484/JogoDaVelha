@@ -1,0 +1,41 @@
+#Ti{
+    font-family: monospace;
+    color: orange;
+    font-size: 50px;
+}
+#Game{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(0, 151, 252);
+}
+button{
+    border-width: 6px;
+    width: 100px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 100px;
+    border-left: 0px;
+    border-top: 0px;
+    vertical-align: top;
+}
+button:hover{
+    background-color: red;
+}
+.btJogo0, .btJogo1{
+    padding-top: 0;
+    margin-top: 0;
+}
+.btJogo2{
+    border-bottom: 0;
+}
+#bt02, #bt12, #bt22{
+    border-right: 0;
+}
+button:disabled{
+    border-color: rgb(0, 0, 0);
+}
+body{
+    background-color: rgb(51, 49, 49);
+}
+body{
+    text-align: center;
+}
